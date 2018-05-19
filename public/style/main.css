@@ -22,6 +22,10 @@ h1 {
     font-weight: 100;
     color: #2B9DFF;
 }
+h2 {
+    font-size: 36px;
+    font-weight: 50;
+}
 h3 {
     font-size: 24px;
 }
@@ -148,6 +152,77 @@ header h1 {
     margin: 0 60px;
     vertical-align: middle;
 }
+/* contact */
+.contact {
+    padding: 2em 5% 4em;
+    margin-bottom: 300px;
+    text-align: center;
+    background: #2B9DFF;
+}
+.contact h2 {
+    margin: 0.75em 1em;
+    color: #fff;
+}
+.contact h2 span {
+    color: #202427;
+}
+.contact form {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 40%;
+}
+.contact form input:not(:last-child) {
+    width: 400px;
+    border: 2px solid #fff;
+    line-height: 40px;
+    outline: none;
+    padding: 0 1em;
+    margin: 0.7em 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+.contact form input:last-child {
+    background-color: #27E394;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #fff;
+    padding: 0.75em 2em;
+    border-radius: 100px;
+    margin: 0.7em 0;
+}
+.contact form input:last-child:hover {
+    background-color: #17C67c;
+}
+.contact form textarea {
+    width: 400px;
+    /* border: none; */
+    resize: none;
+    outline: none;
+    padding: 0 1em;
+    margin: 0.7em 0;
+    line-height: 40px;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+:-ms-input-placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+::-moz-placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
 /* footer */
 footer {
     padding: 0 5%;
