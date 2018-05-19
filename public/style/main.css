@@ -1,0 +1,50 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+html {
+    font-family: Circular Std, sans-serif;
+}
+body {
+    width: 100%;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 100;
+    color: #2B9DFF;
+}
+h3 {
+    font-size: 24px;
+}
+p {
+    font-size: 16px;
+}
+.btnOtline {
+    display: block;
+    text-decoration: none;
+    color: #2B9DFF;
+    border: 2px solid #2B9DFF;
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 30px;
+}
+.btnOtline {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2B9DFF;
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 30px;
+}
