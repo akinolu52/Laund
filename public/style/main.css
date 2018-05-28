@@ -171,7 +171,8 @@ header h1 {
 .contact h2 span {
     color: #202427;
 }
-.contact form {
+/* .contact form { */
+form {
     text-align: center;
     margin: 0 auto;
     padding: 1em;
@@ -179,7 +180,8 @@ header h1 {
     /* border-radius: 30px; */
     /* border: 1px solid red; */
 }
-.contact form input:not(:last-child) {
+/* .contact form input:not(:last-child) { */
+form input:not(:last-child) {
     /* width: 400px; */
     width: 81%;
     border: 1px solid #FFF;
@@ -191,7 +193,8 @@ header h1 {
     border-radius: 5px;
     color: #fff;
 }
-.contact form input:last-child {
+/* .contact form input:last-child { */
+form input:last-child {
     background-color: #2B9DFF;
     color: #FFF;
     font-size: 16px;
@@ -282,4 +285,20 @@ footer p, .footerPages {
     }
 }
 
-
+/* sign up page */
+header form {
+    margin: 2em 0;
+    text-align: left;
+}
+header form input:not(:last-child) { 
+    border: 1px solid #2B9DFF;
+}
+header form ::-webkit-input-placeholder {
+    color: #000;
+}
+header form :-ms-input-placeholder {
+    color: #000;
+}
+header form ::-moz-placeholder {
+    color: #000;
+}
