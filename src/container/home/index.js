@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../../partials/header'
 
 const Home = () => (
     <div>
+        <Header page="home"/>
         <div className="features">
             <h1>
                 Laund-It will handle washing, ironing drying and the delivery of your clothes. Try Laund-It

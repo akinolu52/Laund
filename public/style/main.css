@@ -65,12 +65,15 @@ nav {
 nav a {
     text-decoration: none;
     color: #202427;
-    font-size: 20px;
+    font-size: 1.5em;
+}
+nav a:not(:last-child) {
+    padding-right: 20px;
 }
 nav a:first-child {
     float: left;
     font-weight: 700;
-    font-size: 40px;
+    /* font-size: 40px; */
 }
 nav a:last-child {
     padding: 10px 15px;
@@ -287,7 +290,7 @@ footer p, .footerPages {
 
 /* sign up page */
 header form {
-    margin: 2em 0;
+    margin: 3em 0;
     text-align: left;
 }
 header form input:not(:last-child) { 
