@@ -13,7 +13,7 @@ class Header extends React.Component {
     render ()  {
         return (
             <header>
-                <nav>   X
+                <nav>  
                     <Link to="/">Laund It</Link>
                     <Link to="/about-us">About</Link>
                     <Link to="/">Sign in | up</Link> 
