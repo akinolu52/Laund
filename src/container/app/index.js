@@ -5,12 +5,11 @@ import About from '../about';
 import SignIn from '../sign-in';
 import SignUp from '../sign-up';
 // import pricing from '../about';
-import Header from '../../partials/header'
+// import Header from '../../partials/header'
 import Footer from '../../partials/footer'
 
 const App = () => (
   <div>
-    {/* <Header/> */}
 
     <main>
       <Route exact path="/" component={Home} />
