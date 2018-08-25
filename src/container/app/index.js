@@ -4,7 +4,7 @@ import Home from '../home';
 import About from '../about';
 import SignIn from '../sign-in';
 import SignUp from '../sign-up';
-// import pricing from '../about';
+import Pricing from '../pricing';
 // import Header from '../../partials/header'
 import Footer from '../../partials/footer'
 
@@ -16,7 +16,7 @@ const App = () => (
       <Route exact path="/about-us" component={About} />
       <Route exact path="/sign-in" component={SignIn} />
       <Route exact path="/sign-up" component={SignUp} />
-      <Route exact path="/pricing" component={About} />
+      <Route exact path="/pricing" component={Pricing} />
     </main>
 
     <Footer/>

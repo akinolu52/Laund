@@ -42,7 +42,7 @@ const Home = () => (
         </div>
         <div className="callToAction">
             <h1>Sign Up Now</h1>
-            <Link to="/" className="btnFilled">Get Started</Link>
+            <Link to="/pricing" className="btnFilled">Get Started</Link>
         </div>
         <div className="contact">
             <h2>Contact <span>Us</span></h2>
