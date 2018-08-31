@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Header from '../../partials/header'
 
 const Home = () => (
@@ -32,18 +32,7 @@ const Home = () => (
                 </div>
             </div>
         </div>
-        <div className="about">
-            <h1>Every month we create hundred of resource for you to use in commercial and non-commercial projects</h1>
-            <div className="icons">
-                <img src='../../../images/home/xd_icon.png' alt="icon"  />
-                {/* <img src={require('../../../images/home/xd_icon.png')} /> */}
-                <img src='../../../images/home/sketch_icon.png' alt="icon"  />
-            </div>
-        </div>
-        <div className="callToAction">
-            <h1>Sign Up Now</h1>
-            <Link to="/pricing" className="btnFilled">Get Started</Link>
-        </div>
+        
         <div className="contact">
             <h2>Contact <span>Us</span></h2>
             <form>
